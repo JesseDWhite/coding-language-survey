@@ -1,6 +1,6 @@
 select {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 body {
     background-color: #F5F5F5;
@@ -9,9 +9,10 @@ body {
     margin: 10px;
 }
 #survey-result {
-    margin-top: 15px;
+    margin-top: 10px;
     font-size: 25px;
-    color: green;
+    color: rgb(0, 199, 0);
+    font-weight: bolder;
 }
 .hide-button {
     display: none;

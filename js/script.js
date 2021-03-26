@@ -36,7 +36,7 @@ $(document).ready(function () {
             return $("#survey-result").text("PLEASE ANSWER ALL QUESTIONS BEFORE SUBMITTING!")
         }
     })
-    $(".show-button").click(function () {
+    $("#result").click(function () {
         $(".form-select").slideUp()
         $(".show-button").toggle()
         $(".hide-button").toggle()
@@ -45,13 +45,12 @@ $(document).ready(function () {
         $(".show-p").toggle()
 
     })
-    $(".hide-button").click(function () {
+    $("#revert-back").click(function () {
         $(".form-select").slideDown()
         $(".show-button").toggle()
         $(".hide-button").toggle()
-        $("#survey-result").fadeOut(1000)
+        $("#survey-result").fadeOut()
         $(".hide-p").toggle()
         $(".show-p").toggle()
-
     })
 })
