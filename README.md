@@ -1,7 +1,7 @@
 # _coding-language-survey_
 #### _This application will take user input and guess what type of coding language they should learn!_
 #### By **Jesse White**
-[Click my Survey!](JesseDWhite.github.io/coding-language-survey)
+[Click my Survey!](https://jessedwhite.github.io/coding-language-survey/)
 ## Technologies Used
 * _VS Code_
 * _HTML_
