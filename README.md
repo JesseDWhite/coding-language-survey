@@ -1,6 +1,6 @@
-# _{Application Name}_
-#### _{Brief description of application}_
-#### By _**{List of contributors}**
+# _coding-language-survey_
+#### _This application will take user input and guess what type of coding language they should learn!_
+#### By _**Jesse White**
 ## Technologies Used
 * _List all_
 * _the major technologies_
