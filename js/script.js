@@ -36,6 +36,16 @@ $(document).ready(function () {
             return $("#survey-result").text("PLEASE ANSWER ALL QUESTIONS BEFORE SUBMITTING!")
         }
     })
+    $(".show-button").click(function () {
+        $(".form-select").slideUp(500)
+        $(".show-button").slideUp()
+        $(".hide-button").fadeIn(1000)
+    })
+    $(".hide-button").click(function () {
+        $(".form-select").slideDown()
+        $(".show-button").fadeIn()
+        $(".hide-button").fadeOut()
+    })
 })
 // $("#survey-result-showing").submit(function () {
 // $("#survey-result-showing").toggle();

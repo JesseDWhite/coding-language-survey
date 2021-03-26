@@ -2,6 +2,7 @@ select {
     margin: 20px;
 }
 body {
+    background-color: #F5F5F5;
     text-align: center;
     padding: 10px;
     margin: 10px;
@@ -9,4 +10,7 @@ body {
 #survey-result {
     margin: 15px;
     font-size: 25px;
+}
+.hide-button {
+    display: none;
 }
