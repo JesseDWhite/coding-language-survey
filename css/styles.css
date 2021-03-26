@@ -13,6 +13,7 @@ body {
     font-size: 25px;
     color: rgb(0, 199, 0);
     font-weight: bolder;
+    text-shadow: 5px 5px #EEEEEE;
 }
 .hide-button {
     display: none;
