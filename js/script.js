@@ -25,6 +25,6 @@ $(document).ready(function () {
         else if (result === 5) {
             return $("#survey-result").text(" ELSE IF BRANCH")
         }
-        else { return $("#survey-result").text("CATCH ALL BRANCH") }
+        else { return $("#survey-result").text("PLEASE ANSWER ALL QUESTIONS BEFORE SUBMITTING") }
     })
 })
