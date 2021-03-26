@@ -1,5 +1,6 @@
 select {
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 body {
     background-color: #F5F5F5;
@@ -8,8 +9,9 @@ body {
     margin: 10px;
 }
 #survey-result {
-    margin: 15px;
+    margin-top: 15px;
     font-size: 25px;
+    color: green;
 }
 .hide-button {
     display: none;

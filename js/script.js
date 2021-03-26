@@ -37,21 +37,21 @@ $(document).ready(function () {
         }
     })
     $(".show-button").click(function () {
-        $(".form-select").slideUp(500)
-        $(".show-button").slideUp()
-        $(".hide-button").fadeIn(1000)
-        $("#survey-result").fadeIn()
-        $(".hide-p").fadeIn()
-        $(".show-p").fadeOut()
+        $(".form-select").slideUp()
+        $(".show-button").toggle()
+        $(".hide-button").toggle()
+        $("#survey-result").fadeIn(1000)
+        $(".hide-p").toggle()
+        $(".show-p").toggle()
 
     })
     $(".hide-button").click(function () {
         $(".form-select").slideDown()
-        $(".show-button").fadeIn()
-        $(".hide-button").fadeOut()
-        $("#survey-result").fadeOut()
-        $(".hide-p").fadeOut()
-        $(".show-p").fadeIn()
+        $(".show-button").toggle()
+        $(".hide-button").toggle()
+        $("#survey-result").fadeOut(1000)
+        $(".hide-p").toggle()
+        $(".show-p").toggle()
 
     })
 })

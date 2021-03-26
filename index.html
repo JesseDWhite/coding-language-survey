@@ -19,10 +19,21 @@
     <div class="container">
         <form class="form-group">
             <div class="row justify-content-center">
-                <div class="col-8">
+                <div class="col-6">
                     <h1>What Coding Language Best Suits You</h1>
-                    <p class="show-p">Answer the following questions below to find out what programming language best suits you!</p>
-                    <p class="hide-p">Congrats on your answer! If you do not like the result, go back and change your answers.</p>
+                    <p class="show-p">Answer the following questions below to find out what programming language you would be best at!</p>
+                    <p class="hide-p">Congrats on your result! If you do not like the result, go back and change your answers.</p>
+                    <div class="show-button">
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </div>
+                    <div class="hide-button">
+                        <button class="btn btn-primary" id="revert-back">Change Your Answers</button>
+                    </div>
+                    <div id="survey-result">
+
+                    </div>
+                </div>
+                <div class="col-6">
                     <select class="form-select" id="question1">
                         <option value="0" selected>Is cereal soup?</option>
                         <option value="6">Yes</option>
@@ -76,25 +87,16 @@
                     </select>
                     <select class="form-select" id="question10">
                         <option value="0" selected>Which of these sports would be the funniest to add a mandatory amount of alcohol to?</option>
-                        <option value="3">Fooball</option>
+                        <option value="3">Football</option>
                         <option value="2">Soccer</option>
                         <option value="1">Baseball</option>
                         <option value="2">Tennis</option>
                         <option value="1">Basketball</option>
                         <option value="5">Not a sport, but any political debate</option>
                     </select>
-                    <div id="survey-result">
-
-                    </div>
                 </div>
             </div>
-            <div class="show-button">
-                <button type="submit" class="btn btn-success">Submit</button>
-            </div>
         </form>
-        <div class="hide-button">
-            <button class="btn btn-primary" id="revert-back">Change Your Answers</button>
-        </div>
     </div>
 </body>
 
