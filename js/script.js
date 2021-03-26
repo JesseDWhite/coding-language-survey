@@ -40,13 +40,18 @@ $(document).ready(function () {
         $(".form-select").slideUp(500)
         $(".show-button").slideUp()
         $(".hide-button").fadeIn(1000)
+        $("#survey-result").fadeIn()
+        $(".hide-p").fadeIn()
+        $(".show-p").fadeOut()
+
     })
     $(".hide-button").click(function () {
         $(".form-select").slideDown()
         $(".show-button").fadeIn()
         $(".hide-button").fadeOut()
+        $("#survey-result").fadeOut()
+        $(".hide-p").fadeOut()
+        $(".show-p").fadeIn()
+
     })
 })
-// $("#survey-result-showing").submit(function () {
-// $("#survey-result-showing").toggle();
-// $("#survey-result-hidden").toggle();
