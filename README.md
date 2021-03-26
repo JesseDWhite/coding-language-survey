@@ -9,7 +9,7 @@
 * _Javascript_
 * _Bootstrap_
 ## Description
-With the many options availible for coding languages, it can be hard to know where to start as a beginner. This was a struggle that I shared early in my interest in coding and could not find an easy answer. Now that I know the basics of the languages, I thought it would be nice to have an application to decide for others initial prospect.
+With the many options available for coding languages, it can be hard to know where to start as a beginner. This was a struggle that I shared early in my interest in coding and could not find an easy answer for. Now that I know the basics of the languages, I thought it would be nice to have an application to decide for others' initial prospect.
 ## Setup/Installation Requirements
 * _copy and paste the link at the top of the page, or simply cllick on it to go the gh-pages where the site is hosted and complete the survey_
 * _alternatively: go to https://github.com/JesseDWhite/coding-language-survey and download the whole repository. This is accomplished by selcting the green code button and select the download .zip file._
