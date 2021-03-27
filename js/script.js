@@ -31,7 +31,7 @@ $(document).ready(function () {
         } else if (result >= 40 && result < 50) {
             return $("#survey-result").text(`You have a relative with an app idea that's really dumb. You should learn Ruby ${name}!`)
         } else if (result > 50) {
-            return $("#survey-result").text("You are cutting edge for your age. You should learn Rust!")
+            return $("#survey-result").text(`You are cutting edge for your age ${name}. You should learn Rust!`)
         }
         else {
             return $("#survey-result").text(`Please answer more questions before submitting ${name}!`)
