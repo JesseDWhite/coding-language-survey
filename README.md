@@ -13,10 +13,7 @@ With the many options available for coding languages, it can be hard to know whe
 ## Setup/Installation Requirements
 * _copy and paste the link at the top of the page, or simply cllick on it to go the gh-pages where the site is hosted and complete the survey_
 * _alternatively: go to https://github.com/JesseDWhite/coding-language-survey and download the whole repository. This is accomplished by selcting the green code button and select the download .zip file._
-* _once downloaded, unzip the file and open the index.html file in your chrome browser. Google Chrome is required from this option._
-* _easy-to-understand_
-* _format_
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+* _once downloaded, unzip the file and open the index.html file in your internet browser._
 ## Known Bugs
 * _There are no known bugs_
 ## License
